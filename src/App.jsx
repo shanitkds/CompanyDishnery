@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import CompanyMain from './Component/companyMain'
+import CompanyMain from './Component/Main'
 function App() {
 
   return (
