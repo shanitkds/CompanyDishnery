@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import CompanyMain from './Component/Main'
+import Main from './Component/Main'
 function App() {
 
   return (
     <>
      <div>
-      <CompanyMain/>
+      <Main/>
      </div>
     </>
   )
