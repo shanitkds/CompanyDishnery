@@ -915,7 +915,7 @@ const rawData = [
   { name: "Beninca", type: "Automation", email: "info@beninca.com" },
   { name: "Somfy", type: "Automation", email: "info@somfy.com" }
 ];
-const CompanyMain = () => {
+const companyMain = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredData, setFilteredData] = useState(rawData);
   const [currentPage, setCurrentPage] = useState(1);
@@ -1088,4 +1088,4 @@ const CompanyMain = () => {
   );
 };
 
-export default CompanyMain;
+export default companyMain;
